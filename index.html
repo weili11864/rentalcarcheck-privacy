@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RentalCarCheck Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the RentalCarCheck iOS app."><style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f8fa;
+    --surface: #ffffff;
+    --surface-2: #eef1f6;
+    --text: #1c1e21;
+    --text-secondary: #565c66;
+    --text-tertiary: #85899140;
+    --border: #e3e6eb;
+    --accent: #2f6fed;
+    --accent-soft: #eaf1ff;
+    --accent-soft-border: #d4e3ff;
+    --shadow: 0 1px 2px rgba(20, 24, 32, 0.04), 0 8px 24px rgba(20, 24, 32, 0.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --surface: #171a20;
+      --surface-2: #1e222a;
+      --text: #eef0f3;
+      --text-secondary: #a4aab5;
+      --text-tertiary: #6b707a;
+      --border: #2a2e37;
+      --accent: #6d9dff;
+      --accent-soft: #182236;
+      --accent-soft-border: #2a3a5c;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  header.hero {
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 22px;
+  }
+
+  .brand-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: linear-gradient(160deg, #3a7bff, #2454c9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+    box-shadow: var(--shadow);
+  }
+
+  .brand-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    letter-spacing: 0.01em;
+  }
+
+  h1 {
+    font-size: clamp(28px, 4vw, 38px);
+    line-height: 1.2;
+    margin: 0 0 10px;
+    letter-spacing: -0.01em;
+  }
+
+  .updated {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin: 28px 0 8px;
+  }
+
+  .summary-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+  }
+
+  .summary-card .icon {
+    font-size: 20px;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .summary-card h3 {
+    margin: 0 0 4px;
+    font-size: 14.5px;
+    font-weight: 600;
+  }
+
+  .summary-card p {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+  }
+
+  main {
+    padding: 44px 0 24px;
+  }
+
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 22px;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow);
+  }
+
+  nav.toc h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+    margin: 0 0 12px;
+    font-weight: 700;
+  }
+
+  nav.toc ol {
+    columns: 2;
+    -webkit-columns: 2;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14.5px;
+  }
+
+  nav.toc li { margin-bottom: 7px; break-inside: avoid; }
+
+  section.policy-section {
+    padding: 26px 0;
+    border-bottom: 1px solid var(--border);
+    scroll-margin-top: 20px;
+  }
+
+  section.policy-section:last-of-type { border-bottom: none; }
+
+  section.policy-section h2 {
+    font-size: 19px;
+    margin: 0 0 10px;
+    letter-spacing: -0.005em;
+  }
+
+  section.policy-section p {
+    margin: 0 0 12px;
+    color: var(--text-secondary);
+    font-size: 15.5px;
+  }
+
+  section.policy-section p:last-child { margin-bottom: 0; }
+
+  section.policy-section ul {
+    margin: 0 0 12px;
+    padding-left: 22px;
+    color: var(--text-secondary);
+    font-size: 15.5px;
+  }
+
+  section.policy-section li { margin-bottom: 6px; }
+
+  .callout {
+    display: flex;
+    gap: 12px;
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-soft-border);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-top: 14px;
+  }
+
+  .callout .icon {
+    font-size: 18px;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+
+  .callout p {
+    margin: 0;
+    color: var(--text);
+    font-size: 14.5px;
+  }
+
+  .callout strong { font-weight: 600; }
+
+  footer {
+    padding: 32px 0 60px;
+    color: var(--text-secondary);
+    font-size: 13.5px;
+  }
+
+  footer .foot-inner {
+    border-top: 1px solid var(--border);
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .back-to-top {
+    display: inline-block;
+    margin-top: 28px;
+    font-size: 13.5px;
+    color: var(--text-secondary);
+  }
+
+  @media (max-width: 560px) {
+    nav.toc ol { columns: 1; -webkit-columns: 1; }
+    header.hero { padding: 40px 0 28px; }
+    main { padding: 32px 0 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-icon">🚗</div>
+      <div class="brand-name">RentalCarCheck</div>
+    </div>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: September 6, 2026</div>
+
+    <div class="summary">
+      <div class="summary-card">
+        <span class="icon">📱</span>
+        <h3>Inspections stay on your device</h3>
+        <p>Photos, vehicle details, and notes are stored on your iPhone and are not uploaded to our servers.</p>
+      </div>
+      <div class="summary-card">
+        <span class="icon">🚫</span>
+        <h3>No tracking or ads</h3>
+        <p>We don't use analytics, advertising, or third-party tracking SDKs.</p>
+      </div>
+      <div class="summary-card">
+        <span class="icon">🍎</span>
+        <h3>Payments via Apple</h3>
+        <p>In-app purchases are processed by Apple through the App Store. We never see or store your payment details.</p>
+      </div>
+      <div class="summary-card">
+        <span class="icon">✉️</span>
+        <h3>Feedback is opt-in</h3>
+        <p>If you submit feedback, we send the information you provide to our support infrastructure only when you choose to submit it.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#data-we-collect">Data We Collect</a></li>
+        <li><a href="#personal-data">Personal Data</a></li>
+        <li><a href="#location-services">Location Services</a></li>
+        <li><a href="#camera-photos">Camera and Photo Library</a></li>
+        <li><a href="#in-app-purchases">In-App Purchases</a></li>
+        <li><a href="#feedback">Feedback and Support Requests</a></li>
+        <li><a href="#exported-reports">Exported Reports</a></li>
+        <li><a href="#third-party">Services We Use</a></li>
+        <li><a href="#retention">Data Retention and Deletion</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#children">Children's Privacy</a></li>
+        <li><a href="#changes">Changes to This Policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <section class="policy-section" id="overview">
+      <h2>Overview</h2>
+      <p>RentalCarCheck (the "App") is designed to help you document the condition of rental vehicles. This Privacy Policy explains what information you may enter or create in the App, how that information is used, and how it is stored.</p>
+    </section>
+
+    <section class="policy-section" id="data-we-collect">
+      <h2>Data We Collect</h2>
+      <p>The App allows you to create and store information directly on your device, including:</p>
+      <ul>
+        <li>Photos captured or imported during inspections</li>
+        <li>Vehicle information, such as make, model, license plate, location, and rental dates</li>
+        <li>Inspection notes and checklist responses</li>
+      </ul>
+      <p>This information is used solely to provide the App's core functionality. All inspection data is stored locally on your device. The App does not transmit, upload, or store this information on external servers.</p>
+    </section>
+
+    <section class="policy-section" id="personal-data">
+      <h2>Personal Data</h2>
+      <p>Information you enter into the App, such as vehicle details, inspection notes, location information, or photos, may contain personal or identifying information. However, this information remains stored locally on your device and is not transmitted to us by the App.</p>
+    </section>
+
+    <section class="policy-section" id="location-services">
+      <h2>Location Services</h2>
+      <p>The App can help you fill in a rental location automatically. If you allow it, the App uses your device's Location Services to detect your current location and convert it into a place name. You can also skip this and enter a location manually.</p>
+      <p>Any location information included in an inspection is stored locally on your device as part of that inspection and is not transmitted by the App.</p>
+    </section>
+
+    <section class="policy-section" id="camera-photos">
+      <h2>Camera and Photo Library</h2>
+      <p>The App requests access to your device camera solely to capture vehicle inspection photos.</p>
+      <p>If you choose to import existing photos, the App may request access to your Photo Library for that purpose.</p>
+      <p>Photos used by the App are stored locally on your device and are not uploaded to external servers.</p>
+    </section>
+
+    <section class="policy-section" id="in-app-purchases">
+      <h2>In-App Purchases</h2>
+      <p>RentalCarCheck offers an optional one-time in-app purchase to unlock unlimited inspections. All purchases are processed by Apple through the App Store's In-App Purchase system.</p>
+      <ul>
+        <li>The App never collects, transmits, or stores your credit card number, billing address, or any other payment information.</li>
+        <li>Your payment details are handled directly between you and Apple, governed by Apple's own privacy policy and terms.</li>
+        <li>The App only receives confirmation from Apple of whether a purchase was completed, so it can unlock the corresponding feature. It also uses Apple's restore purchases functionality to recognize a prior purchase if you reinstall the App or use it on a new device.</li>
+      </ul>
+      <div class="callout">
+        <span class="icon">🍎</span>
+        <p><strong>Apple handles all payment processing.</strong> RentalCarCheck has no access to your payment method or billing information at any point.</p>
+      </div>
+    </section>
+
+    <section class="policy-section" id="feedback">
+      <h2>Feedback and Support Requests</h2>
+      <p>If you choose to contact us or submit feedback, a bug report, or a feature request through the App's Send Feedback feature, the information you provide, including your message, steps to reproduce, an optional screenshot, and an optional email address, is sent to our support infrastructure so we can review and respond to your request.</p>
+      <p>This submission may also include basic technical information, such as your device model, app version, and iOS version.</p>
+      <div class="callout">
+        <span class="icon">✉️</span>
+        <p>This information is only sent when you choose to submit it, and is separate from your inspection data, which remains on your device unless you include it in a feedback submission (for example, by attaching a screenshot).</p>
+      </div>
+    </section>
+
+    <section class="policy-section" id="exported-reports">
+      <h2>Exported Reports</h2>
+      <p>When you export an inspection as a PDF, the file is generated on your device. You decide whether, when, and where to save or share the exported report.</p>
+      <p>The App does not automatically transmit or upload exported reports to external servers.</p>
+    </section>
+
+    <section class="policy-section" id="third-party">
+      <h2>Services We Use</h2>
+      <p>The App does not use analytics, advertising, or tracking SDKs.</p>
+      <p>The App uses Apple's App Store services for in-app purchases and support infrastructure to process feedback and support requests that you choose to submit through the App.</p>
+    </section>
+
+    <section class="policy-section" id="retention">
+      <h2>Data Retention and Deletion</h2>
+      <p>Inspection data remains on your device until you delete it within the App or remove the App from your device. Uninstalling the App removes the App's locally stored data, subject to Apple's iOS behavior and any data you may have separately exported or saved outside the App.</p>
+      <p>Information you submit through the feedback feature is retained by our support service as needed to respond to your request.</p>
+    </section>
+
+    <section class="policy-section" id="security">
+      <h2>Security</h2>
+      <p>The App is designed to keep inspection data stored locally on your device. The security of locally stored data also depends on the security of your device, including your device passcode and other iOS security settings.</p>
+    </section>
+
+    <section class="policy-section" id="children">
+      <h2>Children's Privacy</h2>
+      <p>The App is not directed to children under the age of 13 and does not knowingly collect personal information from children under 13.</p>
+    </section>
+
+    <section class="policy-section" id="changes">
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be reflected in an updated version of this Privacy Policy and, where appropriate, in future versions of the App.</p>
+    </section>
+
+    <section class="policy-section" id="contact">
+      <h2>Contact</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:rentalcarcheck@gmail.com">rentalcarcheck@gmail.com</a>.</p>
+    </section>
+
+    <a class="back-to-top" href="#overview">↑ Back to top</a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-inner">
+      <span>© 2026 RentalCarCheck</span>
+      <span>Made with ♥ for travelers</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
